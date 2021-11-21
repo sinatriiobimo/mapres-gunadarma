@@ -4,6 +4,7 @@ import IconMedals from 'assets/images/ic_medals.svg';
 import IconAchieve from 'assets/images/ic_achieve.svg';
 import IconRank from 'assets/images/ic_rank.svg';
 import Button from 'elements/Button';
+import Fade from 'react-reveal/Fade';
 import "assets/scss/style.scss";
 
 import formatNumber from 'utils/formatNumber';
@@ -17,6 +18,7 @@ export default function Hero(props) {
     }
 
     return (
+        <Fade Bottom delay={200}>
         <section className="container pt-4">
             <div style={{marginLeft: 2, marginTop: 20}} className="row align-items-center">
                 <div className="col-auto pr-5" style={{ width: 550 }}>
@@ -60,5 +62,6 @@ export default function Hero(props) {
                 </div>
             </div>
         </section>
+        </Fade>
     )
 }

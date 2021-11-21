@@ -4,170 +4,418 @@
     "achieves": 5000,
     "rank": "26th"
   },
-  "mostPicked": [
+  "faculty": [
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-1.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "name": "Ilmu Komputer dan Teknologi Informasi",
+      "nick": "FIKTI",
+      "type": "teknologi",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/fikti.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Sistem Informasi",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Sistem Komputer",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "The People House",
-      "type": "Hotel",
-      "imageUrl": "/images/image-mostpicked-2.jpg",
-      "country": "Indonesia",
-      "city": "Bogor",
-      "price": "52",
-      "unit": "night"
+      "_id": "asd1293uasdads2",
+      "name": "Teknologi Industri",
+      "nick": "FTI",
+      "type": "industri",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/fti.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Teknik Informatika",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Teknik Elektro",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Teknik Industri",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Teknik Mesin",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Agroteknologi",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "House Tour",
-      "type": "Rumah",
-      "imageUrl": "/images/image-mostpicked-3.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "_id": "asd1293uasdads3",
+      "name": "Teknik Sipil dan Perancangan",
+      "nick": "FTSP",
+      "type": "infrastruktur",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/ftsp.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Teknik Sipil",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Arsitektur",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Desain Interior",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-4.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "_id": "asd1293uasdads4",
+      "name": "Psikologi",
+      "nick": "FPSI",
+      "type": "psikologi",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/fpsi.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Psikologi",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-5.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "_id": "asd1293uasdads5",
+      "name": "Ekonomi",
+      "nick": "FE",
+      "type": "ekonomi",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/fe.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Manajemen",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Akuntansi",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Ilmu Ekonomi",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads6",
+      "name": "Sastra",
+      "nick": "FSASTRA",
+      "type": "literasi",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/fsastra.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Sastra Inggris",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads7",
+      "name": "Kedokteran",
+      "nick": "FK",
+      "type": "kesehatan",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/fk.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Kedokteran",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads8",
+      "name": "Ilmu Komunikasi",
+      "nick": "FIKOM",
+      "type": "komunikasi",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/fikom.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Ilmu Komunikasi",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads8",
+      "name": "Diploma",
+      "nick": "D3",
+      "type": "vokasi",
+      "students": 7892,
+      "achievements": 698,
+      "patens": 875,
+      "imageUrl": "/images/d3.png",
+      "illustration": "/images/image-mostpicked-1.jpg",
+      "jurusan": [
+        {
+          "name": "Manajemen Informatika",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Teknik Komputer",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Kebidanan",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Manajemen Keuangan",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Manajemen Pemasaran",
+          "academics": 870,
+          "non-academics": 380
+        },
+        {
+          "name": "Akuntansi",
+          "academics": 870,
+          "non-academics": 380
+        }
+      ],
+      "tips": [
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Felita Anjani",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Zhirazzi Dimas Praseptyo",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        },
+        {
+          "quotes": "Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan",
+          "studnames": "Rahmadilla Salsabila",
+          "best": "1st Winner Hackathon North Waterloo at Canada"
+        }
+      ]
     }
   ],
-  "categories": [
+  "news": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "teknologi",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": true
+          "headline": "Mahasiswa Gunadarma Sukses Memenangkan Hacktahon GarudaHack 2021 Pada Kategori Best Sustanability",
+          "imageUrl": "/images/Berita/img-berita1.png",
+          "content": "Test",
+          "isHot": true
+        },
+        {
+          "_id": "asd1293uasdads2",
+          "headline": "Aplikasi ‘Selftuazion’ Karya Mahasiswa UG Raih People’s Choice Award di Harvard Medical Grand Challenge 2021",
+          "imageUrl": "/images/Berita/img-berita2.png",
+          "content": "Test",
+          "isHot": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        }
-      ]
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "name": "Hotels with large living room",
-      "items": [
-        {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-5.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-6.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": true
-        }
-      ]
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
-      "items": [
-        {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": true
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
+          "headline": "Gunadarma I/O Raih Predikat High Honours pada Ajang ICPC World Finals 2021 di Moscow",
+          "imageUrl": "/images/Berita/img-berita3.png",
+          "content": "Test",
+          "isHot": false
         }
       ]
     }
@@ -175,10 +423,9 @@
   "testimonial": {
     "_id": "asd1293uasdads1",
     "imageUrl": "/images/testimonial-landingpages.jpg",
-    "name": "Happy Family",
-    "rate": 4.55,
-    "content": "What a great trip with my family and I should try again next time soon ...",
-    "familyName": "Angga",
-    "familyOccupation": "Product Designer"
+    "name": "Haikal Ardikatama",
+    "majors": "Teknik Informatika",
+    "years": "2018",
+    "content": "Being surrounded by world class academics, many opportunities were open for me that i believe would not be available elsewhere"
   }
 }
