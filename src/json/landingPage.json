@@ -398,6 +398,7 @@
       "items": [
         {
           "_id": "asd1293uasdads1",
+          "type": "teknologi",
           "headline": "Mahasiswa Gunadarma Sukses Memenangkan Hacktahon GarudaHack 2021 Pada Kategori Best Sustanability",
           "imageUrl": "/images/Berita/img-berita1.png",
           "content": "Test",
@@ -405,6 +406,7 @@
         },
         {
           "_id": "asd1293uasdads2",
+          "type": "teknologi",
           "headline": "Aplikasi ‘Selftuazion’ Karya Mahasiswa UG Raih People’s Choice Award di Harvard Medical Grand Challenge 2021",
           "imageUrl": "/images/Berita/img-berita2.png",
           "content": "Test",
@@ -412,8 +414,39 @@
         },
         {
           "_id": "asd1293uasdads1",
+          "type": "teknologi",
           "headline": "Gunadarma I/O Raih Predikat High Honours pada Ajang ICPC World Finals 2021 di Moscow",
           "imageUrl": "/images/Berita/img-berita3.png",
+          "content": "Test",
+          "isHot": false
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "keilmuan",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "type": "keilmuan",
+          "headline": "Mahasiswa Gunadarma Sukses Memenangkan Hacktahon GarudaHack 2021 Pada Kategori Best Sustanability",
+          "imageUrl": "/images/Berita/img-berita4.png",
+          "content": "Test",
+          "isHot": true
+        },
+        {
+          "_id": "asd1293uasdads2",
+          "type": "keilmuan",
+          "headline": "Aplikasi ‘Selftuazion’ Karya Mahasiswa UG Raih People’s Choice Award di Harvard Medical Grand Challenge 2021",
+          "imageUrl": "/images/Berita/img-berita5.png",
+          "content": "Test",
+          "isHot": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "type": "keilmuan",
+          "headline": "Gunadarma I/O Raih Predikat High Honours pada Ajang ICPC World Finals 2021 di Moscow",
+          "imageUrl": "/images/Berita/img-berita6.png",
           "content": "Test",
           "isHot": false
         }
