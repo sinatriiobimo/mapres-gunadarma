@@ -12,9 +12,9 @@ import formatNumber from 'utils/formatNumber';
 export default function Hero(props) {
     function showPrestasi() {
         window.scrollTo({
-            top: props.refMostPicked.current.offsetTop - 30,
-            behavior: 'smooth'
-        });
+            top: props.refPrestasi.current.offsetTop - 30,
+            behavior: "smooth"
+        })
     }
 
     return (
