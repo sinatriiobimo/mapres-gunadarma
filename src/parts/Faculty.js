@@ -17,7 +17,7 @@ export default function Faculty(props) {
                                 <img src={item.imageUrl} alt={item.name} className="img-cover" />
                             </figure>
                             <div className="meta-wrapper">
-                                <Button type="link" className="streched-link d-block" href={`/properties/${item._id}`}>
+                                <Button type="link" className="streched-link d-block" href={`/fakultas/${item._id}`}>
                                     <h5 style={{color: '#CC96F0', fontWeight: 'bold'}}>{item.nick}</h5>
                                 </Button>
                                 <span>{item.name}</span>

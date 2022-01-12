@@ -28,7 +28,7 @@ export default function News({data}) {
                                                 <img src={item.imageUrl} alt={item.headline} className="img-cover" />
                                             </figure>
                                             <div className="meta-wrapper">
-                                                <Button type="link" href={`/properties/${item._id}`} style={{color: '#CC96F0'}} className="stretched-link d-block">
+                                                <Button type="link" href={`/news/${item._id}`} style={{color: '#CC96F0'}} className="stretched-link d-block">
                                                     <h5 style={{textTransform: 'uppercase', fontWeight: 'bold'}} className="h4">{item.type}</h5>
                                                 </Button>
                                                 <span className="text-white">

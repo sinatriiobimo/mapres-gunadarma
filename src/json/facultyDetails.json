@@ -1,0 +1,65 @@
+{
+  "hero": {
+      "achievements": 10897,
+      "students": 4767
+  },
+  "_id": "61d18e640113baba0e84f490",
+  "name": "Teknologi Industri",
+  "stand": "FTI",
+  "about": "<p>Prepare Undergraduate graduates with international insight by using&nbsp;<em><strong>Cutting-Edge Engineering Education &amp; Management&nbsp;</strong></em>which is the benchmark of higher education system in South East Asia region. Organize research for the development of the nation&rsquo;s technology and science by focusing on&nbsp;<em><strong>Applied Engineering Research</strong></em>.&nbsp;<em><strong>Applied Engineering Research&nbsp;</strong></em>is a type of research that can compete in the international scene but also benefited the Indonesian&rsquo;s people, without disregarding researches that have been the back bone of&nbsp;Faculty of Technology Industry Universitas Gunadarma. Encourage the professional and adaptive&nbsp;<em><strong>Engineering Enterprises&nbsp;</strong></em>system and community engagement towards the need of the society and industry.&nbsp;<em><strong>Engineering Enterprises&nbsp;</strong></em>must have an active role in solving the global demand with the support towards sustainable and humane development. Building and preparing engineering institution based on Integrated Information Technology (<em><strong>Integrated IT Based Institution</strong></em>) with efficiency and professionalism demand that is the national benchmark.&nbsp;<em><strong>Integrated IT Based Institution&nbsp;</strong></em>must be able to keep up with the trend in FTI or future technology development.</p>\r\n",
+  "imageId": [
+      {
+          "_id": "61d18e640113baba0e84f492",
+          "image": "/images/fikti.png"
+      },
+      {
+          "_id": "61d18e640113baba0e84f495",
+          "image": "/images/1641123428451.png"
+      }
+  ],
+  "majorId": [
+      {
+          "_id": "61d18e7a0113baba0e84f49d",
+          "name": "Teknik Informatika"
+      },
+      {
+          "_id": "61d18e8a0113baba0e84f4a4",
+          "name": "Teknik Elektro"
+      },
+      {
+          "_id": "61d18e970113baba0e84f4ab",
+          "name": "Teknik Industri"
+      },
+      {
+          "_id": "61d18ea80113baba0e84f4b2",
+          "name": "Teknik Mesin"
+      },
+      {
+          "_id": "61d18eb50113baba0e84f4b9",
+          "name": "Agroteknologi"
+      }
+  ],
+  "distinguish": {
+      "_id": "61d18e640113baba0e84f490",
+      "studentId": [
+          {
+              "_id": "61d198470113baba0e84f5b8",
+              "name": "Sinatrio Bimo Wahyudi",
+              "image": "/images/bimo.jpeg",
+              "distinguishId": [
+                  {
+                      "_id": "61d199080113baba0e84f5fc",
+                      "about": "<p>Lebih baik mencoba daripada tidak mencoba sama sekali, karena dengan mencoba, kita sudah 50% menuju kemenangan</p>\r\n",
+                      "best": "1st Winner ASEAN-India Hackathon"
+                  }
+              ]
+          },
+          {
+              "_id": "61d198750113baba0e84f5c4",
+              "name": "Haikal Ardikatama",
+              "image": "/images/bimo.jpeg",
+              "distinguishId": []
+          }
+      ]
+  }
+}
