@@ -63,7 +63,7 @@ export default function FacultyAchieve({data}) {
                     </p>
 
                     {data.distinguish?.studentId?.map?.((testimonial, index) => {
-                        return <PojokMapres key={index} data={testimonial}></PojokMapres> 
+                        return <Fade delay={500}> <PojokMapres key={index} data={testimonial}></PojokMapres> </Fade>
                     })}
                 </section>
             </section>

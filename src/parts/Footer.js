@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-6 mr-5">
                         <IconText />
-                        <p className="brand-tagline">
+                        <p style={{marginTop: '2rem',lineHeight: '1.9rem'}} className="brand-tagline">
                             Temukan gerakan dan inovasi mahasiswa yang telah berhasil menuliskan sejarah baru bagi Universitas Gunadarma
                         </p>
                         <div className="copyrights" style={{marginTop: '50px'}}>

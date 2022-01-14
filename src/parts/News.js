@@ -7,7 +7,14 @@ export default function News({data}) {
         <Fade left delay={500}>
         <section className="container">
             <h4 style={{color: '#CC96F0', fontSize: 20}} className="mb-3">Redaksi Universitas</h4>
-            <p style={{marginTop: -12}} className="text-white mb-4 font-weight-light w-75">Berita terkini mengenai riset, prestasi, dan kehidupan kampus</p>
+            <div style={{marginTop: -3}} className="d-flex text-white mb-4 font-weight-light">
+                <p className="w-35">Berita terkini mengenai riset, prestasi, dan kegiatan kampus</p>
+                <p style={{marginLeft: '30rem', color: '#EECAFF'}}>
+                <Button type="link" href={`/news`} style={{color: '#CC96F0', textDecoration: 'none'}} className="stretched-link d-block">
+                    Lihat Selengkapnya
+                </Button>
+                </p>
+            </div>
             {
                 data.map((news, index1) => {
                     return <section key={`news-${index1}`}>

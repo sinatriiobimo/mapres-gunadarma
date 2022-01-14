@@ -12,7 +12,7 @@ export default function FacultyContent({data}) {
                         Tentang{" "}
                         <span style={{color: '#E8B9FF'}}>Fakultas</span>
                     </h6>
-                    <p style={{lineHeight: '1.7rem'}} className="mb-3">
+                    <p style={{lineHeight: '1.9rem'}} className="mb-3">
                         {ReactHtmlParser(data?.about) ?? "No Description Found"}
                     </p>
                 </section>

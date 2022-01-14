@@ -7,7 +7,7 @@ export default function Faculty(props) {
         <section className="container" ref={props.refPrestasi}>
             <Fade Bottom delay={200}>
             <h4 style={{color: '#CC96F0', fontSize: 20}} className="mb-3">Detail Fakultas</h4>
-            <p style={{marginTop: -12}} className="text-white mb-4 font-weight-light w-75">Daftar prestasi tahunan fakultas dibidang akademik dan non akademik</p>
+            <p style={{marginTop: -3}} className="text-white mb-4 font-weight-light w-75">Daftar prestasi tahunan fakultas dibidang akademik dan non akademik</p>
             <div className="container-grid">
                 {props.data.map((item, index) => {
                     return <div className="item column-4 row-1" key={`faculty-${index}`}>
