@@ -5,6 +5,7 @@ import FacultyPage from 'pages/FacultyPage';
 import Example from 'pages/Example';
 import DetailNews from 'pages/DetailNews';
 import NewsAll from 'pages/NewsAll';
+import TablePage from 'pages/TablePage';
 import FacultyDetails from 'json/facultyDetails.json';
 import "assets/scss/style.scss";
 
@@ -16,6 +17,9 @@ function App() {
           <Route exact path="/example" component={Example}></Route>
           <Route exact path="/news/:id" component={DetailNews}></Route>
           <Route exact path="/news" component={NewsAll}></Route>
+          <Route exact path="/akademik/:id" component={TablePage}></Route>
+          <Route exact path="/non-akademik/:id" component={TablePage}></Route>
+          <Route exact path="/major/:id" component={TablePage}></Route>
           <Route exact path="/fakultas/:id" data={FacultyDetails} component={FacultyPage}></Route>
       </Router>
     </div>

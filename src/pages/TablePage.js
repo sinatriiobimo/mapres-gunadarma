@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Header from 'parts/Header';
 import Footer from 'parts/Footer';
-import NewsPage from 'parts/NewsPage'
-import News from 'json/news.json';
-export default class NewsAll extends Component{
+import Table from 'parts/Table'
+
+export default class TablePage extends Component{
     
     componentDidMount() {
-        window.title = "Mapres UG | Berita";
+        window.title = "Mapres UG | Table Prestasi";
         window.scrollTo(0, 0);
     }
 
@@ -14,7 +14,7 @@ export default class NewsAll extends Component{
         return (
             <>
                 <Header {...this.props}></Header>
-                <NewsPage data={News.news}></NewsPage>
+                <Table></Table>
                 <Footer></Footer>
             </>
         )
