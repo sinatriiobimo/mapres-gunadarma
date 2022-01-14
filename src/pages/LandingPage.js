@@ -15,7 +15,7 @@ export default class LandingPage extends Component {
     }
 
     componentDidMount() {
-        window.title = "Mapres UG | Home";
+        window.title = "Mapres UG | Beranda";
         window.scrollTo(0, 0);
 
         // if(!this.props.page.landingPage)

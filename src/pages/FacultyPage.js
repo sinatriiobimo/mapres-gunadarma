@@ -10,21 +10,15 @@ import FacultyDetails from 'json/facultyDetails.json';
 export default class FacultyPage extends Component{
     
     componentDidMount() {
-        window.title = "Mapres UG | Faculty Page";
+        window.title = "Mapres UG | Fakultas";
         window.scrollTo(0, 0);
     }
 
     render() {
-        const breadcrumb = [
-            {pageTitle: "Beranda", pageHref: ""},
-            {pageTitle: "Detail Fakultas", pageHref: ""}
-        ];
-
         return (
             <>
                 <Header {...this.props}></Header>
                 <FacultyBanner 
-                breadcrumb={breadcrumb} 
                 data={FacultyDetails}></FacultyBanner>
                 <FacultyContent data={FacultyDetails}></FacultyContent>
                 <FacultyMajor data={FacultyDetails}></FacultyMajor>

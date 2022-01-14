@@ -1,0 +1,40 @@
+{
+    "news": [
+        {
+            "_id": "61ce6028a8f0c9b72760635a",
+            "topic": "Teknologi",
+            "imageUrl": "/images/Berita/img-berita1.png",
+            "headline": "Mahasiswa Gunadarma Sukses Memenangkan Hacktahon GarudaHack 2021 Pada Kategori Best Sustanability"
+        },
+        {
+            "_id": "61ce605aa8f0c9b72760635d",
+            "topic": "Teknologi",
+            "imageUrl": "/images/Berita/img-berita2.png",
+            "headline": "Aplikasi 'Selftuazion' Karya Mahasiswa UG Raih People's Choice Award di Harvard Medical Grand Challenge 2021"
+        },
+        {
+            "_id": "61ce6074a8f0c9b727606360",
+            "topic": "Teknologi",
+            "imageUrl": "/images/Berita/img-berita3.png",
+            "headline": "Gunadarma I/O Raih Predikat High Honours pada Ajang ICPC World Finals 2021 di Moscow"
+        },
+        {
+            "_id": "61ce60a6a8f0c9b727606363",
+            "topic": "Teknologi",
+            "imageUrl": "/images/Berita/img-berita4.png",
+            "headline": "Tim Mahasiswa Universitas Gunadarma Berhasil Meraih Juara Di GEMASTIK XIV Tahun 2021"
+        },
+        {
+            "_id": "61ce60fda8f0c9b72760636a",
+            "topic": "Keilmuan",
+            "imageUrl": "/images/Berita/img-berita5.png",
+            "headline": "Pembukaan Pendaftaran Lomba Nasional Kreativitas Mahasiswa (LO Kreatif) 2021"
+        },
+        {
+            "_id": "61ce613da8f0c9b727606371",
+            "topic": "Keilmuan",
+            "imageUrl": "/images/Berita/img-berita6.png",
+            "headline": "Mahasiswa Universitas Gunadarma Meraih Medali Emas, Perak, dan Perunggu Pada Ajang OSM (Olimpiade Sains Mahasiswa) Tingkat Mahasiswa Dan Guru Se-Indonesia Tahun 2021"
+        }
+    ]
+}
