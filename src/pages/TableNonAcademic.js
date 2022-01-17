@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Header from 'parts/Header';
 import Footer from 'parts/Footer';
-import Table from 'parts/Table';
+import TableNonAc from 'parts/TableNonAc';
 import { connect } from 'react-redux';
 import { fetchPage } from 'store/actions/page';
 
-class TablePage extends Component{
+class TableNonAcademic extends Component{
     
     componentDidMount() {
         window.title = "Mapres UG | Table Prestasi";
@@ -13,7 +13,7 @@ class TablePage extends Component{
 
         if(!this.props.page[this.props.match.params.id])
         this.props.fetchPage(
-        `${process.env.REACT_APP_HOST}/api/v1/user/major/${this.props.match.params.id}`,
+        `${process.env.REACT_APP_HOST}/api/v1/user/non-academic/${this.props.match.params.id}`,
         this.props.match.params.id
         );
     }
@@ -22,12 +22,12 @@ class TablePage extends Component{
         const {page, match} = this.props;
         if(!page[match.params.id]) return null;
 
-        const contents = page[match.params.id].major.achievementId.map(content => content)
+        const contents = page[match.params.id].nonAchievement.map(content => content)
 
         return (
             <>
                 <Header {...this.props}></Header>
-                <Table tables={contents}></Table>
+                <TableNonAc tables={contents}></TableNonAc>
                 <Footer></Footer>
             </>
         )
@@ -38,4 +38,4 @@ const mapStateToProps = (state) => ({
     page: state.page,
 });
 
-export default connect(mapStateToProps, {fetchPage})(TablePage)
+export default connect(mapStateToProps, {fetchPage})(TableNonAcademic)
