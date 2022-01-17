@@ -33,14 +33,14 @@ export default function FacultyBanner({data}) {
                                     <FacultyFeature data={{
                                         icon: '👨🏻‍🎓',
                                         meta: 'Mahasiswa',
-                                        value: data.hero.students ?? 0
+                                        value: data.hero.studentic ?? 0
                                     }}/>
                                 </Fade>
                                 <Fade delay={500}>
                                 <FacultyFeature data={{
                                     icon: '🏅',
                                     meta: 'Prestasi',
-                                    value: data.hero.achievements ?? 0
+                                    value: data.hero.achievetic ?? 0
                                 }}/>
                                 </Fade>
                                 <Fade delay={700}>

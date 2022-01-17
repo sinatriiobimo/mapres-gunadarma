@@ -13,7 +13,7 @@ export default function DetailNews({data}) {
 
                 <Fade delay={500}>
                 <div style={{marginTop: '3rem'}} className="mx-auto container-sm rounded">
-                    <img className="image-news" src={data.news.image} alt={data.news.headline} />
+                    <img className="image-news" src={`${process.env.REACT_APP_HOST}/${data.news.image}`} alt={data.news.image} />
                 </div>
                 </Fade>
 

@@ -14,7 +14,7 @@ export default function NewsPage({data}) {
                                     <Fade left delay={500 * index}>
                                     <div style={{background: 'transparent'}} className="card">
                                         <figure className="img-wrapper" style={{height: 180}}>
-                                            <img src={news.image} alt={news.headline} className="img-cover" />
+                                            <img src={`${process.env.REACT_APP_HOST}/${news.image}`} alt={news.headline} className="img-cover" />
                                         </figure>
                                         <div className="meta-wrapper">
                                             <Button type="link" href={`/news/${news._id}`} style={{color: '#CC96F0'}} className="stretched-link d-block">
