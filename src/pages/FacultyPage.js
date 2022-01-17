@@ -5,27 +5,42 @@ import FacultyBanner from 'parts/FacultyBanner';
 import FacultyContent from 'parts/FacultyContent';
 import FacultyAchieve from 'parts/FacultyAchieve';
 import FacultyMajor from 'parts/FacultyMajor';
-import FacultyDetails from 'json/facultyDetails.json';
-
-export default class FacultyPage extends Component{
+import { connect } from 'react-redux';
+import { fetchPage } from 'store/actions/page';
+class FacultyPage extends Component{
     
     componentDidMount() {
         window.title = "Mapres UG | Fakultas";
         window.scrollTo(0, 0);
+
+        if(!this.props.page[this.props.match.params.id])
+        this.props.fetchPage(
+        `${process.env.REACT_APP_HOST}/api/v1/user/detail-faculty/${this.props.match.params.id}`,
+        this.props.match.params.id
+        );
     }
 
     render() {
+        const {page, match} = this.props;
+        console.log(page)
+        if(!page[match.params.id]) return null;
+
         return (
             <>
                 <Header {...this.props}></Header>
                 <FacultyBanner 
-                data={FacultyDetails}></FacultyBanner>
-                <FacultyContent data={FacultyDetails}></FacultyContent>
-                <FacultyMajor data={FacultyDetails}></FacultyMajor>
-                <FacultyAchieve data={FacultyDetails}></FacultyAchieve>
+                data={page[match.params.id]}></FacultyBanner>
+                <FacultyContent data={page[match.params.id]}></FacultyContent>
+                <FacultyMajor data={page[match.params.id]}></FacultyMajor>
+                <FacultyAchieve data={page[match.params.id]}></FacultyAchieve>
                 <Footer></Footer>
             </>
         )
     }
 }
 
+const mapStateToProps = (state) => ({
+    page: state.page,
+});
+
+export default connect(mapStateToProps, {fetchPage})(FacultyPage)

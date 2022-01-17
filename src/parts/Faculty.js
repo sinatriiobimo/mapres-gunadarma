@@ -14,11 +14,11 @@ export default function Faculty(props) {
                         <Fade Left delay={500 * index}> 
                         <div style={{borderColor: 'transparent'}} className="card card-featured border-0">
                             <figure className="img-wrapper">
-                                <img src={item.imageUrl} alt={item.name} className="img-cover" />
+                                <img src={`${process.env.REACT_APP_HOST}/${item.imageId[0].image}`} alt={item.name} className="img-cover" />
                             </figure>
                             <div className="meta-wrapper">
                                 <Button type="link" className="streched-link d-block" href={`/fakultas/${item._id}`}>
-                                    <h5 style={{color: '#CC96F0', fontWeight: 'bold'}}>{item.nick}</h5>
+                                    <h5 style={{color: '#CC96F0', fontWeight: 'bold'}}>{item.stand}</h5>
                                 </Button>
                                 <span>{item.name}</span>
                             </div>

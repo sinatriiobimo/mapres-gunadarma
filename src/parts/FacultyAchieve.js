@@ -54,6 +54,7 @@ export default function FacultyAchieve({data}) {
                     </Fade>
                 </section> 
 
+                {data.distinguish?.studentId.length === 0 ? null :
                 <section style={{marginLeft: '7.5rem',width: '75%'}}>
                     <h6 style={{fontSize: '1.3rem', fontWeight: 'bold', marginBottom: '1rem'}}>
                         Pojok <span style={{color: '#E8B9FF'}}>Mapres</span>
@@ -66,6 +67,7 @@ export default function FacultyAchieve({data}) {
                         return <Fade delay={500}> <PojokMapres key={index} data={testimonial}></PojokMapres> </Fade>
                     })}
                 </section>
+                }
             </section>
     )
 }

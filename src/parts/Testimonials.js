@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageTestimonial from 'assets/images/testimonial-landingpages.png';
 import Fade from 'react-reveal/Fade';
 
 export default function Testimonials({data}) {
@@ -8,7 +9,7 @@ export default function Testimonials({data}) {
             <div className="row align-items-center">
                 <div className="col-auto" style={{marginRight: 70}}>
                     <div className="testimonial-hero" style={{margin: `30px 0 0 30px`}}>
-                        <img src={data.imageUrl} alt="" className="position-absolute" />
+                        <img src={ImageTestimonial} alt="" className="position-absolute" />
                     </div>
                 </div>
                 <div className="col-6" style={{marginBottom: '70px'}}>

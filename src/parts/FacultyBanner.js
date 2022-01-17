@@ -5,10 +5,10 @@ import Fade from 'react-reveal/Fade';
 export default function FacultyBanner({data}) {
     return (
         <section className="pt-10 relative overflow-hidden"
-            style={{ height: 660 }}>
+            style={{ height: 680 }}>
                 <Fade>
                     <div className="banner-wrapper">
-                        <img src={data.imageId?.[0].image} alt={data.imageId?.[0].image}/>
+                        <img src={`${process.env.REACT_APP_HOST}/${data.imageId?.[0].image}`} alt={`${process.env.REACT_APP_HOST}/${data.imageId?.[0].image}`}/>
                     </div>
                 </Fade>
                 <div className="banner-title"></div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageHero_ from 'assets/images/img-hero-frame.png';
+import ImageHero_ from 'assets/images/BannerNew.png';
 import IconMedals from 'assets/images/ic_medals.svg';
 import IconAchieve from 'assets/images/ic_achieve.svg';
 import IconRank from 'assets/images/ic_rank.svg';
@@ -37,19 +37,19 @@ export default function Hero(props) {
                         <div className="col-auto" style={{marginRight: 30}}>
                             <img width="36" height="36" src={IconMedals} alt="Medals"/>
                             <h6 className="mt-3">
-                                {formatNumber(props.data.medals)} <span className="text-gray-500 font-weight-light">Prestasi</span>
+                                {formatNumber(props.data.achievetic)} <span className="text-gray-500 font-weight-light">Prestasi</span>
                             </h6>
                         </div>
                         <div className="col-auto" style={{marginRight: 30}}>
                             <img width="36" height="36" src={IconAchieve} alt="Achieve"/>
                             <h6 className="mt-3">
-                                {formatNumber(props.data.achieves)} <span className="text-gray-500 font-weight-light">Mapres</span>
+                                {formatNumber(props.data.studentic)} <span className="text-gray-500 font-weight-light">Mapres</span>
                             </h6>
                         </div>
                         <div className="col-auto">
                             <img width="36" height="36" src={IconRank} alt="Rank"/>
                             <h6 className="mt-3">
-                                {props.data.rank} <span className="text-gray-500 font-weight-light">Rank</span>
+                                {props.data.rank}th <span className="text-gray-500 font-weight-light">Rank</span>
                             </h6>
                         </div>
                     </div>

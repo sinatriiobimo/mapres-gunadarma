@@ -19,7 +19,7 @@ export default function PojokMapres({data}) {
                 </div>
                 <div style={{marginTop: '2.5rem'}} className="testimonial-icon mt-10">
                     <img
-                    src={data.image}
+                    src={`${process.env.REACT_APP_HOST}/${data.image}`}
                     alt=""
                     style={{width: '5rem', marginRight: '1.25rem'}}
                     className="d-inline-block testimonial-user active rounded-circle"

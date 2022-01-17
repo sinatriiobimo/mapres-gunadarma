@@ -22,7 +22,7 @@ export default function FacultyContent({data}) {
             <div style={{width: '35%'}}>
                 <section>
                     <div style={{width: '20px'}}>
-                        <img style={{width: '490px'}} src={data.imageId?.[1].image} alt={data.imageId?.[1].image}/>
+                        <img style={{width: '490px'}} src={`${process.env.REACT_APP_HOST}/${data.imageId?.[1].image}`} alt={`${process.env.REACT_APP_HOST}/${data.imageId?.[1].image}`}/>
                     </div>
                 </section>
             </div>
