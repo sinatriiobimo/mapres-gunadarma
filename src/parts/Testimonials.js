@@ -13,10 +13,10 @@ export default function Testimonials({data}) {
                     </div>
                 </div>
                 <div className="col-6" style={{marginBottom: '70px'}}>
-                    <h4 style={{marginBottom: '45px', backgroundColor: '#F3A000', fontWeight: 'bold', display: 'inline-block', padding: '0.2em'}}>MAPRES {data.years}</h4>
+                    <h4 style={{marginBottom: '45px', backgroundColor: '#F3A000', fontWeight: 'bold', display: 'inline-block', padding: '0.2em'}}>MAPRES GUNADARMA</h4>
                     <div className="testimonial-text">
                         <h4 style={{color: '#E8B9FF'}}>{data.name}</h4>
-                        <span style={{color: '#CFCFCF'}}>{data.majors}</span>
+                        <span style={{color: '#CFCFCF'}}>{data.major}, {data.yearStart}</span>
                     </div>
                     <h5 className="h2 font-weight-light line-height-2 my-3" style={{fontSize: '28px', lineHeight: '42px'}}>
                         {data.content}

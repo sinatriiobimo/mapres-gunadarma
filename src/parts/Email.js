@@ -10,7 +10,7 @@ export default function Email() {
             <div className="row align-items-center email-box">
                 <div className="col-6" style={{marginLeft: '95px'}}>
                     <h4 style={{marginBottom: '20px', fontWeight: '600'}}>Segera Laporkan Prestasimu</h4>
-                    <p style={{fontSize: '15px', fontWeight: '300'}}>
+                    <p style={{fontSize: '15px', lineHeight: '1.7rem', fontWeight: '300'}}>
                         Apabila anda merupakan mahasiswa aktif Universitas Gunadarma dan telah memenangkan kompetisi, baik lingkup akademik maupun non-akademik. Anda dapat melaporkan data prestasi anda pada button dibawah ini!
                     </p>
                     <Button isExternal type="link" className="btn-email" href="mailto:sektor@gunadarma.ac.id">Lapor</Button>

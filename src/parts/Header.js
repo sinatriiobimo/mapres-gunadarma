@@ -22,9 +22,6 @@ export default function Header(props) {
                             <li className={`nav-item${getNavLinkClass('/news')}`}>
                                 <Button className="nav-link" type="link" href="/news">Berita</Button>
                             </li>
-                            <li className={`nav-item${getNavLinkClass('/kontak')}`}>
-                                <Button className="nav-link" type="link" href="/kontak">Kontak</Button>
-                            </li>
                         </ul>
                     </div>
                 </nav>
